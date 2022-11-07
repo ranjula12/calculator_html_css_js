@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Montserrat:ital,wght@0,300;0,500;1,800;1,900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="screen" readonly>
+            <button onclick="del()" style="background-color: rgb(69, 255, 17) ;">DEL</button>
+            <button onclick="clr()" style="background-color: rgb(69, 255, 17) ;">CL</button>
+            <button onclick="show('%')">%</button>
+            <button onclick="show('/')">/</button>
+            <button onclick="show('7')">7</button>
+            <button onclick="show('8')">8</button>
+            <button onclick="show('9')">9</button>
+            <button onclick="show('*')">*</button>
+            <button onclick="show('4')">4</button>
+            <button onclick="show('5')">5</button>
+            <button onclick="show('6')">6</button>
+            <button onclick="show('-')">-</button>
+            <button onclick="show('1')">1</button>
+            <button onclick="show('2')">2</button>
+            <button onclick="show('3')">3</button>
+            <button onclick="show('+')">+</button>
+            <button onclick="show('.')">.</button>
+            <button onclick="show('0')">0</button>
+            <button onclick="calculation()">=</button>
+            <button><a href="https://github.com/ranjula12"><i class="fa-2xl fa-brands fa-github fa-fw"></i></a></button>
+        </div>
+    </div>
+
+    <div class="botom">
+           
+        <div class="cont">
+            <h2>Contact Me</h2>
+            <hr>
+        </div>
+        <div class="ico">
+            <ul>
+            <li><a href="https://github.com/ranjula12"><i class="fa-2xl fa-brands fa-github fa-fw"></i></a></li>
+            <li><a href="https://www.facebook.com/ranjula.bandara.54/"><i class="fa-2xl fa-brands fa-facebook fa-fw"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/ranjula-bandara-a87745226/"><i class="fa-2xl fa-brands fa-linkedin fa-fw"></i></a></li>
+            </ul>
+        </div>
+        
+        <p>Copyright © 2022 Ranjula(lucifer)Dev. All Rights Reserved!</p>
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>
